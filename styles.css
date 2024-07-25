@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    background-color: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+section.active {
+    display: block;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.profile-image, .skills-image, .goals-image {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.skills-image img, .goals-image img {
+    max-width: 50%;
+    height: auto;
+}
+
+ol, ul {
+    margin-left: 2rem;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+#contact ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+#contact li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#contact img {
+    width: 24px;
+    height: 24px;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+}
